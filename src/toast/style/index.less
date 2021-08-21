@@ -1,0 +1,42 @@
+.easy-ui-toast {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  max-width: 80%;
+  transform: translateX(-50%);
+  padding: 9px 11px;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+  border: 0 solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  animation: toast-in 0.3s;
+  &.hidden {
+    animation: toast-out 0.3s forwards;
+  }
+}
+
+@keyframes toast-in {
+  0% {
+    transform: translate(-50%, 100%);
+    opacity: 0.5;
+  }
+  70% {
+    transform: translate(-50%, -10%);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+@keyframes toast-out {
+  from {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+}

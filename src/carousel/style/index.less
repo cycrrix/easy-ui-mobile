@@ -1,0 +1,36 @@
+.easy-ui-carousel-wrapper {
+  position: relative;
+  overflow: hidden;
+  .easy-ui-carousel-list {
+    display: flex;
+    position: relative;
+    align-items: center;
+    .easy-ui-carousel-item {
+      width: 100%;
+      flex-shrink: 0;
+      .easy-ui-carousel-img {
+        width: 100%;
+        transform: translate3d(0, 0, 0); // 解决滑动过快时图片闪屏问题
+      }
+    }
+  }
+  .easy-ui-carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    .easy-ui-carousel-dot {
+      display: block;
+      width: 6px;
+      height: 6px;
+      background: #0002;
+      margin: 0 4px;
+      border-radius: 50%;
+      &.active {
+        background-color: #32bac0;
+      }
+    }
+  }
+}

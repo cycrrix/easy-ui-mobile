@@ -1,8 +1,13 @@
+---
+order: 1
+title: '关于 easy-ui-mobile'
+nav:
+  title: 开发指南
+---
+
 # easy-ui-mobile
 
 `easy-ui-mobile`，是一款基于 Dumi，由 React + TypeScript 开发的组件库 🎉。如果你也想学习组件开发，欢迎加入或提供意见，该项目会长期更新，欢迎你的 start⭐
-
-[组件库预览地址](https://cycrrix.github.io/easy-ui-mobile)
 
 ## ✨ 特性
 
@@ -34,13 +39,13 @@ yarn add easy-ui-mobile
 ### 示例
 
 ```js
-import { Toast } from 'easy-ui-mobile';
+import { OrgTree } from 'easy-ui-mobile';
 ```
 
 手动引入样式
 
 ```js
-import 'easy-ui-mobile/lib/toast/style';
+import 'easy-ui-mobile/lib/org-tree/style';
 ```
 
 使用[babel-plugin-import](https://github.com/ant-design/babel-plugin-import)帮助我们引入样式
@@ -56,6 +61,12 @@ import 'easy-ui-mobile/lib/toast/style';
 ### TypeScript[#](https://ant.design/docs/react/introduce-cn#TypeScript)
 
 `easy-ui-mobile`使用 TypeScript 进行书写并提供了完整的定义文件。
+
+## 待优化点：
+
+- 支持主题
+- 新增 Dialog、Loading 等通用组件
+- 新增 EsLint、StyleLint 支持
 
 ## 作者 (cycrrix)
 
