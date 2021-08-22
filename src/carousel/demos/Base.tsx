@@ -3,13 +3,13 @@ import { Carousel } from 'easy-ui-mobile';
 
 const dataSource = [
   {
-    img: 'https://raw.githubusercontent.com/cycrrix/picture-bed/master/banner1.jpeg',
+    img: 'https://i.loli.net/2021/08/22/26PUDaBcXvdKRlT.jpg',
   },
   {
-    img: 'https://raw.githubusercontent.com/cycrrix/picture-bed/master/banner2.webp',
+    img: 'https://i.loli.net/2021/08/22/YHzK4mUE2x9PiFg.jpg',
   },
   {
-    img: 'https://raw.githubusercontent.com/cycrrix/picture-bed/master/banner3.jpeg',
+    img: 'https://i.loli.net/2021/08/22/QW5kCcuLMgAfKzl.jpg',
   },
 ];
 
